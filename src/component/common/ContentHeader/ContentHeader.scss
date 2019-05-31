@@ -1,0 +1,67 @@
+.Content_Header {
+    z-index: 90;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 148px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    .title {
+        margin-top: 110px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 46px;
+        font-family: NanumGothic;
+        font-size: 30px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.15;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ff0000;
+        .learnEsports {
+            color: #ff0000;
+        }
+        .dot {
+            color: #000000;
+        }
+        .GG{
+            color: #0000f9;
+        }
+    }
+    .contents {
+        margin-top: 40.5px;
+        margin-bottom: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1300px;
+        height: 50px;
+        .content_name {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 30.5px;
+            font-family: 400;
+            font-size: 18px;
+            font-weight: bolder;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.16;
+            letter-spacing: normal;
+            text-align: left;
+            color: #444343;
+        }
+        .content_wall {
+            margin-right: 30.5px;
+            width: 1px;
+            height: 30px;
+            background-color: #818181;
+        }
+    }
+}

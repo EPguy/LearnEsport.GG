@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+a:link {
+    color: #4a4a4a;
+    text-decoration: none;
+}
+a:visited {
+    color: #4a4a4a;
+    text-decoration: none #4a4a4a;;
+}
+a:hover {
+    color: #4a4a4a;
+    text-decoration: none #4a4a4a;
+}

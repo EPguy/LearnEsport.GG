@@ -1,0 +1,137 @@
+.Big_thumbnail {
+    width: 500px;
+    height: 562px;
+    &.preview{
+        width: 250px;
+        opacity: 0.5;
+    }
+    .Big_image {
+        width: 100%;
+        height: 281px;
+        object-fit: contain;
+        border: solid 1px #bebebe;
+    }
+    .Big_description {
+        width: 500px;
+        height: 281px;
+        border: solid 1px #bebebe;
+        background-color: #ebebeb;
+        .description_top {
+            width: 500px;
+            height: 161px;
+            .description_title {
+                margin-left: 23.1px;
+                margin-top: 30.2px;
+                width: 327px;
+                height: 35px;
+                font-family: NanumGothic;
+                font-size: 30px;
+                font-weight: bold;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.17;
+                letter-spacing: normal;
+                text-align: left;
+                color: #000000;
+            }
+            .description_explain {
+                margin-top: 20px;
+                margin-left: 23.1px;
+                width: 414px;
+                height: 46px;
+                font-family: Roboto;
+                font-size: 15px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.2;
+                letter-spacing: normal;
+                text-align: left;
+                color: #858585;
+            }
+        }
+        .description_bottom {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                width: 30px;
+                height: 30px;
+                object-fit: contain;
+            }
+            .bottom_left {
+                width: 250px;
+                height: 120px;
+                .description_num {
+                    margin-left: 5px;
+                    width: 76px;
+                    height: 29px;
+                    font-family: NanumGothic;
+                    font-size: 20px;
+                    font-weight: bold;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: 1.16;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: rgba(91, 88, 88, 0.77);
+                }
+                .bottom_top {
+                    margin-left: 23px;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: row;
+                }
+                .bottom_bottom {
+                    margin-top: 10px;
+                    margin-left: 23px;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: row;
+                }
+            }
+            .bottom_right {
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-start;
+                flex-direction: column;
+                width: 250px;
+                height: 120px;
+                .bottom_top {
+                    margin-right: 21px;
+                    .description_price {
+                        width: 83px;
+                        height: 29px;
+                        font-family: NanumGothic;
+                        font-size: 20px;
+                        font-weight: bold;
+                        font-style: normal;
+                        font-stretch: normal;
+                        line-height: 1.16;
+                        letter-spacing: normal;
+                        text-align: right;
+                        color: rgba(41, 41, 193, 0.77);
+                    }
+                }
+                .bottom_bottom {
+                    margin-top: 10px;
+                    margin-right: 21px;
+                    .description_name {
+                        
+                        width: 56px;
+                        height: 29px;
+                        font-family: NanumGothic;
+                        font-size: 20px;
+                        font-weight: bold;
+                        font-style: normal;
+                        font-stretch: normal;
+                        line-height: 1.16;
+                        letter-spacing: normal;
+                        text-align: right;
+                        color: rgba(57, 56, 56, 0.77);
+                    }
+                }
+            }
+        }
+    }
+}
